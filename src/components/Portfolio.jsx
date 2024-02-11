@@ -1,7 +1,10 @@
 import React from "react";
 import tictactoe from "../assets/portfolio/TIcTacToe.png";
-import spotdifference from "../assets/portfolio/SpotTheDifference.png";
+import voice from "../assets/portfolio/voice.png";
 import feedthedragon from "../assets/portfolio/FeedTheDragon.png";
+import medical from "../assets/portfolio/medicaldata.png";
+import Grocery from "../assets/portfolio/Grocery.png";
+
 
 
 const Portfolio = () => {
@@ -12,20 +15,20 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: spotdifference,
+      src: voice,
     },
     {
       id: 3,
       src: feedthedragon,
     },
-    // {
-    //   id: 4,
-    //   src: reactSmooth,
-    // },
-    // {
-    //   id: 5,
-    //   src: installNode,
-    // },
+    {
+      id: 4,
+      src: medical,
+    },
+    {
+      id: 5,
+      src: Grocery,
+    },
     // {
     //   id: 6,
     //   src: reactWeather,
